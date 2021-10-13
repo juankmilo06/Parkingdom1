@@ -1,0 +1,163 @@
+/* Estilos Reporte vista */
+body {
+    margin: 0;
+}
+
+select {
+    width: 45%;
+    font-size: 15px;
+    background: transparent;
+    color: #fff;
+    text-transform: uppercase;
+}
+option {
+    color: black;
+}
+.form-style-4 {
+    width: 600px;
+    height: 360px;
+    font-size: 16px;
+    margin: auto;
+    margin-top: 5%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px 30px 15px 30px;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+
+.form-style-4 label {
+    width: 50%;
+    display: block;
+    float: left;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.form-style-4 label > span {
+    display: inline-block;
+    float: left;
+    width: 150px;
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+}
+.cuadro{
+    float: left;
+    width: 50%;
+}
+.form-style-4 input[type=text] {
+    text-transform: uppercase;
+    background: transparent;
+    border: none;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    width: 130px;
+    outline: none;
+    padding: 0px 0px 0px 0px;
+}
+
+.form-style-4 input[type=text]:focus {
+    border-bottom: 1px dashed #1284cc;
+}
+
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button] {
+    background: #576E86;
+    border: none;
+    padding: 8px 10px 8px 10px;
+    border-radius: 5px;
+    color: #A8BACE;
+}
+
+.form-style-4 input[type=submit]:hover,
+.form-style-4 input[type=button]:hover {
+    background: #394D61;
+}
+
+input[type="date"] {
+    background: transparent;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+.boton{
+    width: 100%;
+    margin-left: 50%;
+    background-color: #1284cc!important;
+    color: #fff!important;
+}
+th,
+td {
+    padding: 10px;
+}
+
+thead {
+    background-color: #243a63;
+    border-bottom: solid 5px #0f1236;
+    color: white;
+    text-transform: uppercase;
+}
+
+tbody {
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+tr:hover td {
+    background-color: #363f96;
+    color: white;
+}
+
+.contenedor {
+    height: -webkit-fill-available;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../../imagenes/fondo_reportes.jpg);
+    padding-top: 30px;
+}
+
+
+
+
+.tbtabla{
+    background: #fff;
+    text-align: center;
+    width: 100%
+}
+
+.seccionToggle{
+  display: none;
+  height: calc(100vh - 50px);
+  background: #fff;
+  color: #001F3F;
+  padding: 50px 0;
+  text-align: center; }
+
+.btn-toggle {
+  height: 50px;
+  line-height: 50px;
+  font-size: 24;
+  font-weight: bold;
+  color: #000;
+  display: block;
+  background: #0071fc;
+  text-align: center; 
+    text-decoration: none;
+}
+
+ 
+@media screen and (max-width: 500px) {
+  .seccionToggle contenedor{
+    margin-top: 0; } }
+@media screen and (max-height: 550px) {
+  .seccionToggle contenerdor{
+    font-size: 40px;
+    margin-top: 0; } }
